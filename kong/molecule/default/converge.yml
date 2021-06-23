@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "kong_gateway"
+      include_role:
+        name: "kong_gateway"
